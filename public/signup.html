@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body id="signupbody">
+    <div class="card text-black-bg-outline-sucess- mb-3 signuppage">
+      <div class="header">
+        <h1>Sign Up</h1>
+      </div>
+      <form action="/signup" method="POST" id="signup-form">
+        <div class="form-group row">
+          <label for="firstName" class="col-sm-3 col-form-label"
+            >First Name</label
+          >
+          <div class="col-sm-8">
+            <input
+              type="text"
+              class="form-control"
+              id="firstName"
+              name="firstName"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="lastName" class="col-sm-3 col-form-label"
+            >Last Name</label
+          >
+          <div class="col-sm-8">
+            <input
+              type="text"
+              class="form-control"
+              id="lastName"
+              name="lastName"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="Email" class="col-sm-3 col-form-label">Email</label>
+          <div class="col-sm-8">
+            <input
+              type="text"
+              class="form-control"
+              id="Email"
+              placeholder="email@example.com"
+              name="email"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="userName" class="col-sm-3 col-form-label">Username</label>
+          <div class="col-sm-8">
+            <input
+              type="text"
+              class="form-control"
+              id="userName"
+              placeholder="user_123"
+              name="userName"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-3 col-form-label"
+            >Password</label
+          >
+          <div class="col-sm-8">
+            <input
+              type="password"
+              class="form-control"
+              id="inputPassword"
+              name="password"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-4"></div>
+          <div class="col-sm-8">
+            <button id="signupBut" type="submit" class="btn btn-lg btn-primary">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

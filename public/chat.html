@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat.css">
+</head>
+<body id='balls'>
+    <div id = "mario-chat">
+        <div id="chat-window">
+            <!-- <div id="output">
+                <ul id="ulChats">
+
+                </ul>
+            </div> -->
+            
+        </div>
+        <!-- <input id ="message" type ="text" placeholder="message"/> -->
+        <!-- <button id="send">Send</button> -->
+        
+    </div>
+
+    <div id="buttonsDiv">
+        
+    </div>
+
+    <div id ="chat-container">
+        <div id= "search-container">
+            <input type = "text" placeholder="search">
+        </div>
+
+        <div id="conversation-list">
+            <!-- <div class = "conversation active">
+                <img src ="./assets/images/paperclip.png" alt="profile">
+                <div class = "title-text">
+                    Karanjyot Thandi
+                </div>
+                <div class ="created-date">
+                    Feb 23
+                </div>
+                <div class="conversation-message">
+                    This is a message
+                </div>
+            </div> -->
+            
+        </div>
+        <div id = "new-message-container">
+            <!-- <a href="#">+</a> -->
+            <img id ="img" src="./assets/images/logo.png">
+        
+        </div>
+        <div id = "chat-title">
+            <span id="firstName"></span>
+            
+        </div>
+        <div id = "chat-message-list">
+            <div id="output">
+                <ul id="ulChats">
+
+                </ul>
+               
+            </div>
+            <div id="feedback"></div>
+            
+        </div>
+
+        <div id = "chat-form">
+            <!-- <img src ="assets/images/paperclip.jpg" alt="add attachement"/> -->
+            <input id ="message" type = "text" placeholder="type a message"/>
+        </div>
+
+    </div>
+    <script src="./js/chat.js"></script>
+    <script src="../routes/apiroutes.js"></script>
+</body>
+</html>

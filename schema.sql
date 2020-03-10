@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS devit_db;
+CREATE DATABASE devit_db;

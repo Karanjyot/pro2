@@ -1,0 +1,106 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#homepagebody{
+  background-image: url("../images/homepage.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron1 {
+  /* background-image: url("../images/homepage.png");
+  background-size: 100% 120%; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* height: 400px; */
+
+  background-image: url("../images/homepage.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron2 {
+  background-color: white;
+}
+
+.jumbotron4 {
+  background-color: white;
+}
+
+.jumbotron5 {
+  background-color: black;
+  height: 200px;
+  margin-bottom: 0;
+}
+/* .borderbox {
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+} */
+
+.profile-row {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logincard {
+  width: 650px; 
+  padding:20px;
+  margin: auto;
+  text-align: center;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#loginbody{
+  background-image: url("../images/login.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signuppage {
+
+  width: 650px; 
+  padding:20px;
+  margin: auto;
+  text-align: center;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#signupBut{
+  margin-right: 170px;
+}
+
+#signupbody{
+  background-image: url("../images/login.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lead {
+  font-weight: bold;
+}
+
+#questionheader{
+  text-align: center;
+}
