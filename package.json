@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ahmeda47/project-2#readme",
   "dependencies": {
-    "bcrypt": "^3.0.8",
+    "bcrypt": "^5.0.0",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "express-flash": "0.0.2",
